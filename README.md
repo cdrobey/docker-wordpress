@@ -28,6 +28,24 @@ ls
    25  chmod 440 110-user-app
    26  sudo su app
    27  history
+   28  exit
+   29  ls
+   30  mkdir projects
+   31  cd projects/
+   32  ls
+   33  git clone https://github.com/cdrobey/docker-wordpress
+   34  ls
+   35  cd docker-wordpress/
+   36  ls
+   37  ls -a
+   38  git pull
+   39  ls
+   40  cd conf
+   41  ls
+   42  cd traefikdynamic/
+   43  ls
+   44  vi services.yml
+   45  vi routers.yml
 =======
 # docker-compose Traefik & Wordpress
 
