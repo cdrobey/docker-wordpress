@@ -1,0 +1,23 @@
+---
+http:
+  routers:
+    rt-traefik:
+      entryPoints:
+      - websecure
+      middlewares:
+      - authentification
+      service: api@internal
+      rule: Host (`traefik.DOMAIN.com`)
+      tls:
+        certResolver: letsencrypt
+
+    rt-wordpress:
+      entryPoints:
+      - websecure
+      middlewares:
+      - security
+      - compression
+      service: sc-wordpress
+      rule: Host (`wordpress.DOMAIN.com`)
+      tls:
+        certResolver: letsencrypt

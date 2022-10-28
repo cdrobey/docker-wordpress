@@ -1,0 +1,84 @@
+---
+version: '3.7'
+services:
+  traefik:
+    image: traefik:${TRAEFIKVERSION}
+    restart: unless-stopped
+    ports:
+      - target : 80
+        published : 80
+        protocol: tcp
+        mode : host
+      - target : 443
+        published : 443
+        protocol: tcp
+        mode : host
+    volumes:
+      - ./conf/acme.json:/acme.json
+      - ./conf/traefik.yml:/etc/traefik/traefik.yml:ro
+      - ./conf/traefikdynamic:/etc/traefik/dynamic:ro
+      - ./logs/traefik.log:/etc/traefik/applog.log
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      TRAEFIK_PILOT_DASHBOARD: "false"
+      TZ: "America/Denver"
+
+  sqlwp:
+    image: mariadb:${MARIADBVERSION}
+    restart: unless-stopped
+    volumes:
+      - ./conf/custom-mysql.cnf:/etc/mysql/conf.d/custom-mysql.cnf:ro
+      - /etc/localtime:/etc/localtime:ro
+      - datasqlwp:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQLROOT}
+      MYSQL_USER: ${MYSQLUSER}
+      MYSQL_PASSWORD: ${MYSQLPASSWORD}
+      MYSQL_DATABASE: ${MYSQLDB}
+      TZ: "America/Denver"
+ 
+  nginxwp:
+    image: nginx:${NGINXVERSION}
+    restart: unless-stopped
+    volumes:
+      - ./conf/nginx-wp:/etc/nginx:ro
+      - /etc/localtime:/etc/localtime:ro
+      - datanginxlogs:/var/log/nginx
+      - datawp:/var/www/html
+    links:
+      - wp
+
+  wp:
+    image: wordpress:${WPVERSION}
+    restart: unless-stopped
+    volumes:
+      - ./conf/php.ini:/usr/local/etc/php/conf.d/custom.ini
+      - /etc/localtime:/etc/localtime:ro
+      - datawp:/var/www/html
+    depends_on:
+      - sqlwp
+      - redis
+    environment:
+      WORDPRESS_DB_HOST: sqlwp
+      WORDPRESS_DB_USER: ${MYSQLUSER}
+      WORDPRESS_DB_PASSWORD: ${MYSQLPASSWORD}
+      WORDPRESS_DB_NAME: ${MYSQLDB}
+      WORDPRESS_TABLE_PREFIX: ${MYSQLTABLEPREFIX}
+      TZ: "America/Denver"
+
+  redis:
+    image: redis:${REDISVERSION}
+    restart: unless-stopped
+    command: redis-server --maxmemory 1024mb --maxmemory-policy allkeys-lru --requirepass changemeWithALongPassword --appendonly yes --bind redis
+    environment:
+      TZ: "America/Denver"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - dataredis:/data
+
+volumes:
+  datanginxlogs:
+  dataredis:
+  datasqlwp:
+  datawp:

@@ -1,0 +1,909 @@
+time="2022-10-26T21:35:11-06:00" level=info msg="I have to go..."
+time="2022-10-26T21:35:11-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T21:35:11-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T21:35:11-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T21:35:11-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T21:35:11-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T21:35:11-06:00" level=info msg="Server stopped"
+time="2022-10-26T21:35:11-06:00" level=info msg="Shutting down"
+time="2022-10-26T21:35:12-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T21:35:12-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T21:35:12-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T21:35:12-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T21:35:12-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T21:35:12-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T21:35:13-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T21:59:03-06:00" level=info msg="I have to go..."
+time="2022-10-26T21:59:03-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T21:59:03-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T21:59:03-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T21:59:03-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T21:59:03-06:00" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T21:59:03-06:00" level=info msg="Server stopped"
+time="2022-10-26T21:59:03-06:00" level=info msg="Shutting down"
+time="2022-10-26T21:59:03-06:00" level=warning msg="Failed to inspect container 76ce5c86a4524b98cd0d987bbdd64b2bc9a07df5aedc4b0bf5e72bfb73a6c194, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/76ce5c86a4524b98cd0d987bbdd64b2bc9a07df5aedc4b0bf5e72bfb73a6c194/json\": context canceled" providerName=docker
+time="2022-10-26T21:59:03-06:00" level=error msg="Cannot connect to docker server context canceled" providerName=docker
+time="2022-10-26T22:00:35-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:00:35-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:00:35-06:00" level=info msg="Account URI does not match the current CAServer. The account will be reset." providerName=letsencrypt.acme
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:00:35-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:00:35-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:00:35-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:00:35-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:00:35-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:00:35-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:00:35-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:00:35-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:00:36-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:00:36-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure
+time="2022-10-26T22:00:36-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:00:36-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:00:36-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:00:36-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:00:37-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:00:37-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:00:37-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:00:37-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:00:37-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:00:37-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:09:43-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:09:43-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:09:43-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:09:43-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:09:43-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:09:43-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:09:43-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:09:43-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:09:43-06:00" level=warning msg="Failed to inspect container 76ce5c86a4524b98cd0d987bbdd64b2bc9a07df5aedc4b0bf5e72bfb73a6c194, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/76ce5c86a4524b98cd0d987bbdd64b2bc9a07df5aedc4b0bf5e72bfb73a6c194/json\": context canceled" providerName=docker
+time="2022-10-26T22:09:43-06:00" level=error msg="Cannot connect to docker server context canceled" providerName=docker
+time="2022-10-26T22:23:43-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:23:43-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:23:43-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:23:43-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:23:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:23:49-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:23:49-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:23:49-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:23:49-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:23:49-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:23:49-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:24:18-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:24:18-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:24:18-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:24:18-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:24:18-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:24:18-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:24:18-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:24:18-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:24:18-06:00" level=warning msg="Failed to inspect container 05a3c5046466a30d3a757b362fbb6507e19d03d34ba7f82014ff979467b08dde, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/05a3c5046466a30d3a757b362fbb6507e19d03d34ba7f82014ff979467b08dde/json\": context canceled" providerName=docker
+time="2022-10-26T22:24:18-06:00" level=warning msg="Failed to inspect container deba27bf6099eb6953520c5f4c2ba4d68c375968ca1caaec66fca717a204438d, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/deba27bf6099eb6953520c5f4c2ba4d68c375968ca1caaec66fca717a204438d/json\": context canceled" providerName=docker
+time="2022-10-26T22:24:18-06:00" level=warning msg="Failed to inspect container 4d163768f3dc216e1be8b794134114826a6bf75be896c0b41fb8c70ac8aef104, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/4d163768f3dc216e1be8b794134114826a6bf75be896c0b41fb8c70ac8aef104/json\": context canceled" providerName=docker
+time="2022-10-26T22:31:27-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:31:27-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:31:27-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:31:27-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:31:27-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file entryPointName=websecure
+time="2022-10-26T22:31:27-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:31:27-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:31:27-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:27-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:27-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:29-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=info msg=Register... providerName=letsencrypt.acme
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:29-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:29-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:36-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:31:36-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:36-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:31:36-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:36-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:36-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:31:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:31:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:31:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:42-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:31:42-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:31:42-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:31:42-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:31:42-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:31:42-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:31:42-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:31:42-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:31:57-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:31:57-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:31:57-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:31:57-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:31:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:31:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure middlewareName=security@file middlewareType=Headers routerName=rt-wordpress@file
+time="2022-10-26T22:31:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:31:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:31:59-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:31:59-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:31:59-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:31:59-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:31:59-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:31:59-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:32:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:32:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:32:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:32:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:32:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:32:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:32:01-06:00" level=info msg=Register... providerName=letsencrypt.acme
+time="2022-10-26T22:32:07-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:32:07-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:32:07-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:32:07-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:32:07-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:32:07-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:32:09-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:32:09-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:32:09-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:32:09-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:32:09-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:32:09-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:46:45-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:46:45-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:46:45-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:46:45-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:46:45-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:46:45-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:46:45-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:46:45-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:46:45-06:00" level=warning msg="Failed to inspect container 7d5d1c4846f8fd41d883001da06d0fbe452515e066408210303e90960b6d81f6, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/7d5d1c4846f8fd41d883001da06d0fbe452515e066408210303e90960b6d81f6/json\": context canceled" providerName=docker
+time="2022-10-26T22:46:45-06:00" level=warning msg="Failed to inspect container e3957bfea75440545ae9c388d1a04b50c9f759a77933ebde127ce8bde5d0de65, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/e3957bfea75440545ae9c388d1a04b50c9f759a77933ebde127ce8bde5d0de65/json\": context canceled" providerName=docker
+time="2022-10-26T22:46:45-06:00" level=warning msg="Failed to inspect container 1f2726568f6798be9e618acb07d926e30b1d197278945b3d01ae51ce719df86d, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/1f2726568f6798be9e618acb07d926e30b1d197278945b3d01ae51ce719df86d/json\": context canceled" providerName=docker
+time="2022-10-26T22:46:57-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:46:57-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:46:57-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:46:57-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:46:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:46:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:46:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:46:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:46:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:46:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:46:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:46:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:46:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:47:04-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:47:04-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:47:04-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:47:04-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:47:04-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:47:04-06:00" level=error msg="close tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:47:04-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:47:04-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:47:04-06:00" level=warning msg="Failed to inspect container 7d5d1c4846f8fd41d883001da06d0fbe452515e066408210303e90960b6d81f6, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/7d5d1c4846f8fd41d883001da06d0fbe452515e066408210303e90960b6d81f6/json\": context canceled" providerName=docker
+time="2022-10-26T22:47:04-06:00" level=warning msg="Failed to inspect container e3957bfea75440545ae9c388d1a04b50c9f759a77933ebde127ce8bde5d0de65, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/e3957bfea75440545ae9c388d1a04b50c9f759a77933ebde127ce8bde5d0de65/json\": context canceled" providerName=docker
+time="2022-10-26T22:47:04-06:00" level=warning msg="Failed to inspect container 1f2726568f6798be9e618acb07d926e30b1d197278945b3d01ae51ce719df86d, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/1f2726568f6798be9e618acb07d926e30b1d197278945b3d01ae51ce719df86d/json\": context canceled" providerName=docker
+time="2022-10-26T22:47:19-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:47:19-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:47:19-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:47:19-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:47:20-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:47:20-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:47:20-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:47:20-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:47:20-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:47:20-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:47:21-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:47:21-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:48:38-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:48:38-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:48:38-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:48:38-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:48:38-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:48:38-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:48:38-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:48:38-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:48:38-06:00" level=warning msg="Failed to inspect container 0a71ddc2de686d1609fdcdc1e6ef02aa8922f7093790f3b7fa620a432591011d, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/0a71ddc2de686d1609fdcdc1e6ef02aa8922f7093790f3b7fa620a432591011d/json\": context canceled" providerName=docker
+time="2022-10-26T22:48:38-06:00" level=warning msg="Failed to inspect container a244efbb50f591ea1e34da3a99b58bb494983135643180a2b856ae57cf2a04e7, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/a244efbb50f591ea1e34da3a99b58bb494983135643180a2b856ae57cf2a04e7/json\": context canceled" providerName=docker
+time="2022-10-26T22:48:38-06:00" level=error msg="Cannot connect to docker server context canceled" providerName=docker
+time="2022-10-26T22:48:44-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:48:44-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:48:44-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-staging-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:48:44-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:48:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:48:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:48:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:48:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:48:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:48:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure middlewareName=security@file middlewareType=Headers routerName=rt-wordpress@file
+time="2022-10-26T22:48:45-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:48:45-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:56:44-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:56:44-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:56:44-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:56:44-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:56:44-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:56:44-06:00" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:56:45-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:56:45-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:56:45-06:00" level=warning msg="Failed to inspect container 0a71ddc2de686d1609fdcdc1e6ef02aa8922f7093790f3b7fa620a432591011d, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/0a71ddc2de686d1609fdcdc1e6ef02aa8922f7093790f3b7fa620a432591011d/json\": context canceled" providerName=docker
+time="2022-10-26T22:56:45-06:00" level=warning msg="Failed to inspect container a244efbb50f591ea1e34da3a99b58bb494983135643180a2b856ae57cf2a04e7, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/a244efbb50f591ea1e34da3a99b58bb494983135643180a2b856ae57cf2a04e7/json\": context canceled" providerName=docker
+time="2022-10-26T22:56:51-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:56:51-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:56:51-06:00" level=info msg="Account URI does not match the current CAServer. The account will be reset." providerName=letsencrypt.acme
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:56:51-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:56:51-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:56:53-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:56:53-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:56:53-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:56:54-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure
+time="2022-10-26T22:56:54-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:56:54-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file
+time="2022-10-26T22:56:54-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:56:54-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:56:54-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:57:57-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:57:57-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:57:57-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:57:57-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:57:57-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:57:57-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:57:58-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:57:58-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:57:58-06:00" level=warning msg="Failed to inspect container 483bb82d38bd0764f9bcb84acc2cf2f06a5ea87b25516a39bb3bbc378948a600, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/483bb82d38bd0764f9bcb84acc2cf2f06a5ea87b25516a39bb3bbc378948a600/json\": context canceled" providerName=docker
+time="2022-10-26T22:57:58-06:00" level=error msg="Cannot connect to docker server context canceled" providerName=docker
+time="2022-10-26T22:58:02-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:58:02-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:58:02-06:00" level=info msg="Account URI does not match the current CAServer. The account will be reset." providerName=letsencrypt.acme
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:58:02-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:58:02-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:58:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:22-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:59:22-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:59:22-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:59:22-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:59:22-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:59:22-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:59:22-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:59:22-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:59:22-06:00" level=warning msg="Failed to inspect container 483bb82d38bd0764f9bcb84acc2cf2f06a5ea87b25516a39bb3bbc378948a600, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/483bb82d38bd0764f9bcb84acc2cf2f06a5ea87b25516a39bb3bbc378948a600/json\": context canceled" providerName=docker
+time="2022-10-26T22:59:37-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:59:37-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:59:37-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:59:37-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:59:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:38-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:39-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:59:39-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T22:59:39-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:59:39-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:39-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:39-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:43-06:00" level=info msg="I have to go..."
+time="2022-10-26T22:59:43-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T22:59:43-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:59:43-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T22:59:43-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:59:43-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T22:59:43-06:00" level=info msg="Server stopped"
+time="2022-10-26T22:59:43-06:00" level=info msg="Shutting down"
+time="2022-10-26T22:59:48-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T22:59:48-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T22:59:48-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T22:59:48-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:59:48-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file entryPointName=websecure
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:48-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:49-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:59:49-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T22:59:49-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T22:59:49-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:49-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:49-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T22:59:52-06:00" level=info msg=Register... providerName=letsencrypt.acme
+time="2022-10-26T22:59:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T22:59:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:59:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T22:59:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T22:59:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T22:59:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:00:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:00:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:00:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:00:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:00:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:00:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:06:42-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:06:42-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:06:42-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:06:42-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:06:42-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:06:42-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:06:42-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:06:42-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:06:43-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:06:43-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:06:43-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:06:43-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:06:43-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:06:43-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:06:43-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:06:43-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:06:43-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:06:43-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:06:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:06:44-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:11:41-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:11:41-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:11:41-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:11:41-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:11:41-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:11:41-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:11:50-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:11:50-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:11:50-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:11:50-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:11:50-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:11:50-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:11:51-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:11:51-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:12:18-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:12:18-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:12:18-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:12:18-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:12:19-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:14:55-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:14:55-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:14:55-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:14:55-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:14:55-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:14:55-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:14:55-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:14:55-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:14:55-06:00" level=warning msg="Failed to inspect container 0d6f45517d3fb45916e362ad54fb9b2940976b3799dbb5b03d19a58381a9ff62, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/0d6f45517d3fb45916e362ad54fb9b2940976b3799dbb5b03d19a58381a9ff62/json\": context canceled" providerName=docker
+time="2022-10-26T23:15:04-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:15:04-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:15:04-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:15:04-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:15:05-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:15:06-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:15:06-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:15:06-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:15:06-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:15:06-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:15:06-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:27:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:27:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:27:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:27:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:27:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:27:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:27:16-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:27:16-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:27:16-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:27:16-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:27:16-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:27:16-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:27:16-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:27:16-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:27:16-06:00" level=warning msg="Failed to inspect container 0d6f45517d3fb45916e362ad54fb9b2940976b3799dbb5b03d19a58381a9ff62, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/0d6f45517d3fb45916e362ad54fb9b2940976b3799dbb5b03d19a58381a9ff62/json\": context canceled" providerName=docker
+time="2022-10-26T23:27:21-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:27:21-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:27:21-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:27:21-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-26T23:27:22-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:27:22-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:27:22-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:27:22-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:27:22-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:27:22-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:27:23-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:27:23-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:27:23-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:29:38-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:29:38-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:29:38-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:29:38-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:29:38-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:29:38-06:00" level=error msg="close tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:29:38-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:29:38-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:29:38-06:00" level=warning msg="Failed to inspect container f3b9cd12415237c17414a57877f05d3ac0f4a4f584efe958e0ffe84e4ee7960a, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/f3b9cd12415237c17414a57877f05d3ac0f4a4f584efe958e0ffe84e4ee7960a/json\": context canceled" providerName=docker
+time="2022-10-26T23:29:38-06:00" level=warning msg="Failed to inspect container 182dd425c305a3204fa19acf8057eceedaccf56544ecc914a73f9ce7be8faa0a, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/182dd425c305a3204fa19acf8057eceedaccf56544ecc914a73f9ce7be8faa0a/json\": context canceled" providerName=docker
+time="2022-10-26T23:32:01-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:32:01-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:32:01-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:32:01-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:32:01-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:32:01-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:32:01-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:32:01-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:32:01-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:32:01-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:32:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:32:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:32:03-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:33:59-06:00" level=info msg="I have to go..."
+time="2022-10-26T23:33:59-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-26T23:33:59-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:33:59-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-26T23:33:59-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:33:59-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-26T23:33:59-06:00" level=info msg="Shutting down"
+time="2022-10-26T23:33:59-06:00" level=info msg="Server stopped"
+time="2022-10-26T23:33:59-06:00" level=warning msg="Failed to inspect container 796b686db87d7191362d73af24664875ace9cc9d10c2aab466a968fe12f29a79, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/796b686db87d7191362d73af24664875ace9cc9d10c2aab466a968fe12f29a79/json\": context canceled" providerName=docker
+time="2022-10-26T23:33:59-06:00" level=warning msg="Failed to inspect container 047b1684e9611d94969c89432459eda81c7285d65751ff159aa14845bec95aac, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/047b1684e9611d94969c89432459eda81c7285d65751ff159aa14845bec95aac/json\": context canceled" providerName=docker
+time="2022-10-26T23:34:58-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-26T23:34:58-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-26T23:34:58-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-26T23:34:58-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-26T23:34:59-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-26T23:34:59-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:34:59-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-26T23:34:59-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:34:59-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:34:59-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:35:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file entryPointName=websecure
+time="2022-10-26T23:35:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-26T23:35:00-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:19:23-06:00" level=info msg="I have to go..."
+time="2022-10-27T20:19:23-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T20:19:23-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T20:19:23-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T20:19:23-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T20:19:23-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T20:19:23-06:00" level=info msg="Server stopped"
+time="2022-10-27T20:19:23-06:00" level=info msg="Shutting down"
+time="2022-10-27T20:22:56-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-27T20:22:56-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-27T20:22:56-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-27T20:22:56-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure middlewareName=security@file middlewareType=Headers routerName=rt-wordpress@file
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T20:22:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:22:57-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:22:58-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:29:45-06:00" level=info msg="I have to go..."
+time="2022-10-27T20:29:45-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T20:29:45-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T20:29:45-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T20:29:45-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T20:29:45-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T20:29:45-06:00" level=info msg="Server stopped"
+time="2022-10-27T20:29:45-06:00" level=info msg="Shutting down"
+time="2022-10-27T20:29:45-06:00" level=warning msg="Failed to inspect container a5ba1d103b78666db0cb1ef830636c89fb255cfcd0d03dac59bd8c27c25cdf62, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/a5ba1d103b78666db0cb1ef830636c89fb255cfcd0d03dac59bd8c27c25cdf62/json\": context canceled" providerName=docker
+time="2022-10-27T20:29:45-06:00" level=warning msg="Failed to inspect container 95951d127848d6bf27582f5f0fd4741f74e41954f33f2faa1724ccf4e3f69749, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/95951d127848d6bf27582f5f0fd4741f74e41954f33f2faa1724ccf4e3f69749/json\": context canceled" providerName=docker
+time="2022-10-27T20:29:45-06:00" level=warning msg="Failed to inspect container b3a5419065d0dcf2c22380c5d9f1095689c208e8e6826ee6d3c8bab54b569ed2, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/b3a5419065d0dcf2c22380c5d9f1095689c208e8e6826ee6d3c8bab54b569ed2/json\": context canceled" providerName=docker
+time="2022-10-27T20:29:49-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-27T20:29:49-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-27T20:29:49-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-27T20:29:49-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-27T20:29:50-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:29:50-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T20:29:51-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file entryPointName=websecure middlewareType=Headers middlewareName=security@file
+time="2022-10-27T20:29:51-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file entryPointName=websecure middlewareType=Headers middlewareName=security@file
+time="2022-10-27T20:29:51-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file entryPointName=websecure middlewareType=Headers middlewareName=security@file
+time="2022-10-27T20:29:51-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T20:29:51-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T20:29:51-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:34:59-06:00" level=info msg="I have to go..."
+time="2022-10-27T21:34:59-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T21:34:59-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:34:59-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:34:59-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:34:59-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:34:59-06:00" level=info msg="Server stopped"
+time="2022-10-27T21:34:59-06:00" level=info msg="Shutting down"
+time="2022-10-27T21:35:17-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-27T21:35:17-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-27T21:35:17-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-27T21:35:17-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-27T21:35:17-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-27T21:35:17-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file
+time="2022-10-27T21:35:17-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:35:17-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:17-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:17-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:35:18-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:18-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:35:26-06:00" level=info msg="I have to go..."
+time="2022-10-27T21:35:26-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T21:35:26-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:35:26-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:35:26-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:35:26-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:35:26-06:00" level=info msg="Server stopped"
+time="2022-10-27T21:35:26-06:00" level=info msg="Shutting down"
+time="2022-10-27T21:35:31-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-27T21:35:31-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-27T21:35:31-06:00" level=info msg="Testing certificate renew..." ACME CA="https://acme-v02.api.letsencrypt.org/directory" providerName=letsencrypt.acme
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-27T21:35:31-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-27T21:35:31-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file entryPointName=websecure
+time="2022-10-27T21:35:31-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareName=security@file entryPointName=websecure routerName=rt-wordpress@file middlewareType=Headers
+time="2022-10-27T21:35:31-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareType=Headers middlewareName=security@file entryPointName=websecure
+time="2022-10-27T21:35:31-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:31-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:31-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T21:35:32-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:35:32-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:46:46-06:00" level=info msg="I have to go..."
+time="2022-10-27T21:46:46-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T21:46:46-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:46:46-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T21:46:46-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:46:46-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T21:46:47-06:00" level=info msg="Server stopped"
+time="2022-10-27T21:46:47-06:00" level=info msg="Shutting down"
+time="2022-10-27T21:46:47-06:00" level=warning msg="Failed to inspect container 9c0eed5e9a45f207f346001d1910d2e390b93c8171ada5aec58940f3257c1430, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/9c0eed5e9a45f207f346001d1910d2e390b93c8171ada5aec58940f3257c1430/json\": context canceled" providerName=docker
+time="2022-10-27T21:46:47-06:00" level=warning msg="Failed to inspect container a07b2f23ea2a127b52e10c6f4b4342e41af5db16a92ef2dd9abba3253c4aa372, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/a07b2f23ea2a127b52e10c6f4b4342e41af5db16a92ef2dd9abba3253c4aa372/json\": context canceled" providerName=docker
+time="2022-10-27T21:46:47-06:00" level=warning msg="Failed to inspect container 58206e8b7e719ada3b6971043594bd983bdd855b2916aa65695a9c68f6ff1a56, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/58206e8b7e719ada3b6971043594bd983bdd855b2916aa65695a9c68f6ff1a56/json\": context canceled" providerName=docker
+time="2022-10-27T21:46:47-06:00" level=error msg="Cannot connect to docker server context canceled" providerName=docker
+time="2022-10-27T21:47:09-06:00" level=info msg="Traefik version 2.6.7 built on 2022-05-24T14:19:52Z"
+time="2022-10-27T21:47:09-06:00" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://doc.traefik.io/traefik/contributing/data-collection/\n"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider aggregator.ProviderAggregator"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider *file.Provider"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider *traefik.Provider"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider *acme.Provider"
+time="2022-10-27T21:47:09-06:00" level=info msg="Testing certificate renew..." providerName=letsencrypt.acme ACME CA="https://acme-v02.api.letsencrypt.org/directory"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider *docker.Provider"
+time="2022-10-27T21:47:09-06:00" level=info msg="Starting provider *acme.ChallengeTLSALPN"
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-27T21:47:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers entryPointName=websecure
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:47:10-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T21:47:11-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file middlewareType=Headers
+time="2022-10-27T21:47:11-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file middlewareName=security@file
+time="2022-10-27T21:47:11-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareName=security@file middlewareType=Headers entryPointName=websecure routerName=rt-wordpress@file
+time="2022-10-27T21:47:11-06:00" level=warning msg="SSLRedirect is deprecated, please use entrypoint redirection instead." middlewareType=Headers
+time="2022-10-27T21:47:11-06:00" level=warning msg="SSLForceHost is deprecated, please use RedirectScheme middleware instead." middlewareType=Headers
+time="2022-10-27T21:47:11-06:00" level=warning msg="FeaturePolicy is deprecated, please use PermissionsPolicy header instead." middlewareType=Headers
+time="2022-10-27T22:15:17-06:00" level=info msg="I have to go..."
+time="2022-10-27T22:15:17-06:00" level=info msg="Stopping server gracefully"
+time="2022-10-27T22:15:17-06:00" level=error msg="accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T22:15:17-06:00" level=error msg="Error while starting server: accept tcp [::]:80: use of closed network connection" entryPointName=web
+time="2022-10-27T22:15:17-06:00" level=error msg="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T22:15:17-06:00" level=error msg="Error while starting server: accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+time="2022-10-27T22:15:18-06:00" level=info msg="Server stopped"
+time="2022-10-27T22:15:18-06:00" level=info msg="Shutting down"
+time="2022-10-27T22:15:18-06:00" level=warning msg="Failed to inspect container 9beb29edb91a1f0f955e2048181eefc2749ac484002342f9894904bc68904492, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/9beb29edb91a1f0f955e2048181eefc2749ac484002342f9894904bc68904492/json\": context canceled" providerName=docker
+time="2022-10-27T22:15:18-06:00" level=warning msg="Failed to inspect container d2f5b9a786621c883a1ac041ee0e9436433c907b2dec8e6c7a12a607b0beaddd, error: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/d2f5b9a786621c883a1ac041ee0e9436433c907b2dec8e6c7a12a607b0beaddd/json\": context canceled" providerName=docker
